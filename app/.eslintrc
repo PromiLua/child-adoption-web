@@ -1,0 +1,45 @@
+{
+  "root": true,
+  "env": {
+    "node": true,
+    "commonjs": true,
+    "browser": true,
+    "es6": true
+  },
+  "parserOptions": {
+    "ecmaVersion": 2021,
+    "sourceType": "module"
+  },
+  "plugins": ["import"],
+  "extends": [
+    "eslint:recommended",
+    "plugin:prettier/recommended",
+    "prettier"
+  ],
+  "settings": {
+    "import/resolver": {
+      "node": {
+        "paths": [
+          "."
+        ],
+        "extensions": [
+          ".js",
+          ".jsx"
+        ]
+      }
+    }
+  },
+  "rules": {
+    "comma-dangle": "off",
+    "jsx-a11y/anchor-is-valid": "off",
+    "max-len": "off",
+    "no-console": "off",
+    "no-plusplus": "off",
+    "react/forbid-prop-types": "off",
+    "no-unused-vars": "off",
+    "react/jsx-filename-extension": "off",
+    "react/jsx-props-no-spreading": "off",
+    "react/react-in-jsx-scope": "off",
+    "react/require-default-props": "off"
+  }
+}

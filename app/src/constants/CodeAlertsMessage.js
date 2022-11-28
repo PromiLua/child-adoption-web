@@ -1,0 +1,6 @@
+export const CodeAlertsMessage = {
+  SUCCESS: 'success',
+  INFO: 'info',
+  WARNING: 'warning',
+  ERROR: 'error',
+};
