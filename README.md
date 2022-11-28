@@ -17,7 +17,3 @@ This is a front-end web application to child adoption
     ```bash
     On Your Network:  http://172.26.0.2:3000
     ```
-# child-adoption-web
-# child-adoption-web
-# child-adoption-web
-# child-adoption-web
